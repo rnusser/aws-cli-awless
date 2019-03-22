@@ -14,7 +14,7 @@ The image was built from the Dockerfile placed in the current directory like thi
 
 You can download the Dockerfile and do the same:
 
-`docker built -t my-aws-cli .`
+`docker build -t my-aws-cli .`
 
 
 ## Run it
