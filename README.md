@@ -24,7 +24,7 @@ You can also skip the build if you can trust the Dockerhub image and just run it
 
 I didn't give it a name as the container will be removed once it stops, or you exit it.
 
-For credential testing I created a new credential file in my current directory, say my-credentials, and mapped the file in my current directory to the containers .aws/credentials file.
+For credential testing I created a new credential file in my current directory, say `my-credentials`, and mapped the file in my current directory to the containers .aws/credentials file.
 
 `docker run -it -v "$(pwd)"/my-credentials:/root/.aws/credentials --rm silverfibre/aws-cli-awless`
 
